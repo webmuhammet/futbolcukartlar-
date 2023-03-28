@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/bacground-iamge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    margin: 10px;
+    font-size: 2rem;
+    
+
+}
+
+h1{
+  color: azure;
+}
+.kartlar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.kart-sorulari{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+.kart {
+    flex: 0 0 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .kart img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .kart.cevap {
+    background-color: green;
+  }
+  
+  .kart.yanlis {
+    background-color: red;
+  }
+
+  .sonuc{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .sonucResim{
+    width: 250px;
+  }
+
+
+  #yeniden-oyna-buttonu{
+    display: flex;
+    border-color: red;
+    border-radius: 40px;  
+   background-color:azure;
+    width: 400px;
+    height: 100px;
+  }
+
+  label{
+    display: flex;
+    
+    font-size: 60px;
+    color: black;
+
+  }
